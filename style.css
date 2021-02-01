@@ -4,19 +4,17 @@ body {
     background-image: url("img/background.jpg");
     background-size: 100%;
     font-family: 'Bangers', cursive;
-    -webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .timer {
     width: 110px;
     height: 50px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-left: 46.5%;
+    margin: 10px;
     font-size: 40px;
     background-color: aqua;
     text-align: justify; 
@@ -30,8 +28,7 @@ body {
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    margin-top: 15px;
-    margin-left: 48%;
+    margin: 10px;
     font-size: 60px;
     background-color: aqua;
     text-align: center;
@@ -44,7 +41,7 @@ body {
     height: 65px;
     border: none;
     margin-top: 80px;
-    margin-left: 33%;
+    margin: 10px;
     font-family: 'Bangers', cursive;
 }
 
@@ -68,20 +65,20 @@ button:active, button:focus {
 
 
 .table {
-    position: absolute;
+    /* position: absolute; */
     bottom: 100px;
     left: 40%;  
     background-color: aqua;
-    font-size: 25px;
+    font-size: 2rem;
     color: firebrick;
     opacity: .8;
     display: none;
 }
 
 .table td{
-    width: 27px;
-    height: 27px;
+    width: 3rem;
+    height: 3rem;
     text-align: center;
     background-color: chartreuse;
-    font-size: 25px;
+    font-size: 2rem;
 }
